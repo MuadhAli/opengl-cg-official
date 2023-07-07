@@ -18,7 +18,7 @@ void executeFunction(unsigned char key) {
             system("./digger"); // Command for key 'c'
             break;
         case 'd':
-            system("./demo"); // Command for key 'd'
+            system("./Desktop-Simulator/demo"); // Command for key 'd'
             break;
         default:
             break;
