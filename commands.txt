@@ -1,0 +1,7 @@
+g++ main.cpp -o demo -lGL -lGLU -lglut 
+
+g++ dino.cpp -o dino -lGL -lGLU -lglut 
+
+g++ intro.cpp -o intro -lGL -lGLU -lglut 
+
+./intro 

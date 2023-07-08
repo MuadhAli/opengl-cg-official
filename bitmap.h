@@ -28,18 +28,18 @@ void front_page()
 	glPushMatrix();
 	glColor3f(1.0, 1.0, 1.0);
 	glTranslatef(0., 3.5, 0.);
-	renderBitmapString(-3.4f, 3.0f, -0.1f, (void*)helv18, (char*)"MANGALORE INSTITUTE OF TECHNOLOGY AND ENGINEERING, MOODABIDRI");
+	renderBitmapString(-3.4f, 3.0f, -0.1f, (void*)helv18, (char*)"                                 P A COLLEGE OF ENGINEERING");
 	renderBitmapString(-2.6f, 2.6f, -0.1f, (void*)helv18, (char*)"DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING");
 	renderBitmapString(-0.6f, 2.3f, -0.1f, (void*)helv12, (char*)"A MINI PROJECT ON");
 	renderBitmapString(-2.85f, 2.0f, -0.1f, (void*)helv18, (char*)"GRAPHICAL SIMULATION OF DESKTOP AND ITS COMPONENTS");
 
 	renderBitmapString(-1.5f, 1.5f, -0.1f, (void*)times10, (char*)"BY:");
-	renderBitmapString(-2.4f, 1.3f, -0.1f, (void*)helv12, (char*)"ADARSH REVANKAR   4MT16CS003");
-	renderBitmapString(-2.4f, 1.1f, -0.1f, (void*)helv12, (char*)"AKSHAYA M.              4MT16CS007");
+	renderBitmapString(-2.4f, 1.3f, -0.1f, (void*)helv12, (char*)"Muadh Bin Mohammed Ali          4PA20CS069");
+	renderBitmapString(-2.4f, 1.1f, -0.1f, (void*)helv12, (char*)"Mohammed Shaan A R              4PA20CS063");
 
-	renderBitmapString(1.2f, 1.5f, -0.1f, (void*)times10, (char*)"GUIDS:");
-	renderBitmapString(0.7f, 1.3f, -0.1f, (void*)helv12, (char*)"Mr. PRASHANTH B.S.");
-	renderBitmapString(0.7f, 1.1f, -0.1f, (void*)helv12, (char*)"Ms. SHARANYA BABU");
+	renderBitmapString(1.2f, 1.5f, -0.1f, (void*)times10, (char*)".");
+	renderBitmapString(0.7f, 1.3f, -0.1f, (void*)helv12, (char*)".");
+	renderBitmapString(0.7f, 1.1f, -0.1f, (void*)helv12, (char*)".");
 
 	glPopMatrix();
 }
