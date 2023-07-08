@@ -4,6 +4,6 @@ g++ dino.cpp -o dino -lGL -lGLU -lglut
 
 g++ intro.cpp -o intro -lGL -lGLU -lglut 
 
-g++ digger.cpp Actor.cpp GameController.cpp GameWorld.cpp StudentWorld.cpp -o digger -lGL -lGLU -lglut
+g++ scenery.cpp  -o scenery -lGL -lGLU -lglut
 
 ./intro 
